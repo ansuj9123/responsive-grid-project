@@ -1,3 +1,67 @@
 /* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: whitesmoke;
+}
+
+nav {
+  background: grey;
+  width: 100%;
+  overflow: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  float: left;
+}
+nav a {
+  width: 120px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background: gray;
+  font-size: 17px;
+  color: white;
+  padding: 20px 10px;
+  font-family: "poppins" sans-serif;
+}
+
+nav a:hover {
+  background: white;
+  color: black;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.container-image {
+  background-image: url("../designs/Cactus\ shop.png");
+  height: 100%;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 7 9rem;
+}
+.text {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  margin: 5%;
+
+  .search {
+    border: 2px;
+  }
+}
 
 /* Dont' forget to link this file to your HTML in the <head> */
